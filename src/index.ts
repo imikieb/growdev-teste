@@ -11,7 +11,7 @@ app.use(cors());
 // Github -> plataforma
 
 app.get('/', (req: Request, res: Response) => {
-    return res.send('OK!');
+    return res.send('OK.');
 })
 
 app.listen(8080, () => {
