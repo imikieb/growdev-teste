@@ -9,8 +9,6 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: false }));
 app.use((0, cors_1.default)());
-// GIT -> versionador de código (repositório)
-// Github -> plataforma
 app.get('/', (req, res) => {
     return res.send('OK.');
 });
